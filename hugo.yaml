@@ -1,11 +1,12 @@
 baseURL: "https://vuon-web.github.io/vnsurvey/"
 
-locale:
-  language: vi-VN
+locale: "vi-VN"
 
 defaultContentLanguage: vi
 
 title: "VườnWeb Engineering"
+
+theme: PaperMod
 
 enableRobotsTXT: true
 enableGitInfo: true
