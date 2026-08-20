@@ -1,0 +1,15 @@
+services:
+  hugo:
+    image: hugomods/hugo:exts
+    working_dir: /src
+    ports:
+      - "1313:1313"
+    volumes:
+      - .:/src
+      - hugo_cache:/tmp/hugo_cache
+    command: >-
+      sh -c "hugo mod get github.com/adityatelange/hugo-PaperMod &&
+      hugo server --bind 0.0.0.0 --buildDrafts --buildFuture --disableFastRender"
+
+volumes:
+  hugo_cache:
