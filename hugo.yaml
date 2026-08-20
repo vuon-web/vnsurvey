@@ -2,9 +2,7 @@ baseURL: "https://vuon-web.github.io/vnsurvey/"
 languageCode: "vi-vn"
 defaultContentLanguage: vi
 title: "Your Engineering Blog"
-module:
-  imports:
-    - path: github.com/adityatelange/hugo-PaperMod
+theme: PaperMod
 enableRobotsTXT: true
 enableGitInfo: true
 hasCJKLanguage: true
