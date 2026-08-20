@@ -1,4 +1,4 @@
-baseURL: "https://YOUR_DOMAIN/"
+baseURL: "https://vuon-web.github.io/vnsurvey/"
 languageCode: "vi-vn"
 defaultContentLanguage: vi
 title: "Your Engineering Blog"
